@@ -6,7 +6,7 @@
 /* Operações básicas */
 
 //Autores: Nathaly e Luiza
-//RA: 858030 e 859337
+//RA: 
 //Data de criação: 24/06/2026
 //Data de alteração: 01/07/2026
 //Objetivo:  Inicializar um conjunto sem elementos armazenados.
@@ -22,7 +22,7 @@ void criarConjunto(tConjunto *C) {
 /*---------------------------------------------------------------------------*/
 
 /*
-Autor: Murilo Destaole (858026) Daniel Yuji (856670)
+Autor: Murilo Destaole () Daniel Yuji ()
 Data de Criação: 24/06/26
 Data de Alteração: 01/07/26
 Objetivo: Implementação de função para inserir um novo elemento no conjunto, desde que o conjunto não esteja cheio e o elemento ainda não exista nele.
@@ -82,7 +82,7 @@ int inserirVariosElementos(tConjunto *c, int vetor[], int quantidade) {
 
 /*
 Autor: Guilherme Goulart de Oliveira e Kemily Vitoria
-RA: 856171
+RA: 
 Data de Criacao: 24/06/26
 Data de Alteracao: 01/07/26
 Objetivo: Implementacao da sub-rotina de Remover elemento do Conjunto
@@ -142,7 +142,7 @@ int removerElemento(tConjunto *conj, int elemento)
 /* Exibição */
 
 //Autores: Nathaly e Luiza
-//RA: 858030 e 859337
+//RA: 
 //Data de criação: 24/06/2026
 //Data de alteração: 01/07/2026
 //Objetivo:  Exibir todos os elementos do conjunto na sequência de armazenamento.
@@ -166,7 +166,7 @@ void exibirConjuntoDesordenado(tConjunto C) {
 
 /*
 Autor: Iago Brás Antunes de Souza
-RA: 856967
+RA: 
 Data de Criação: 24/06/2026
 Data de Alteração: 01/07/2026
 Objetivo: Exibir os elementos de um conjunto ordenados de forma crescente ou decrescente
@@ -222,7 +222,7 @@ void exibirConjuntoOrdenado(tConjunto c, int crescente){
 /* Consultas */
 
 /*
-Autor: Murilo Destaole (858026) Daniel Yuji (856670)
+Autor: Murilo Destaole () Daniel Yuji ()
 Data de Criação: 24/06/26
 Data de Alteração: 01/07/26
 Objetivo: Implementação de função para verificar se um determinado conjunto não possui nenhum elemento.
@@ -245,7 +245,7 @@ int estaVazio(tConjunto conjunto) {
 /*---------------------------------------------------------------------------*/
 
 /*
-Autor: Beatriz Kwok (858034) e Iago Antonio de Souza (859087)
+Autor: Beatriz Kwok () e Iago Antonio de Souza ()
 Data de Criação: 24/06/26
 Data de Alteração: 24/06/26
 Objetivo: Implementação da função de retornar a quantidade atual de elementos armazenados no conjunto
@@ -289,7 +289,7 @@ int buscaElemento(tConjunto c, int elemento){
 /*---------------------------------------------------------------------------*/
 
 /*
-Autor: Isabela Garcia Gonçalves de Carvalho (856271), José Vitor Winterle de Souza (856378)
+Autor: Isabela Garcia Gonçalves de Carvalho (), José Vitor Winterle de Souza ()
 Data de Criação: 24/06/26
 Data de Alteração: 01/07/26
 */
@@ -316,7 +316,7 @@ int maiorValor(tConjunto C){
 /*---------------------------------------------------------------------------*/
 
 /*
-Autor: Isabela Garcia Gonçalves de Carvalho (856271), José Vitor Winterle de Souza (856378)
+Autor: Isabela Garcia Gonçalves de Carvalho (), José Vitor Winterle de Souza ()
 Data de Criação: 24/06/26
 Data de Alteração: 01/07/26
 */
@@ -345,7 +345,7 @@ int menorValor(tConjunto C){
 /* Operações entre conjuntos */
 
 /*
-Autores: João Gabriel Azevedo Terra (858032) Thiago Aviz Brasil(856397)
+Autores: João Gabriel Azevedo Terra () Thiago Aviz Brasil()
 Data de Criação: 24/06/26
 Data de Alteração: 24/06/26
 Objetivo: Implementação de união e interseção do Tipo Abstrato de Dados Conjunto
@@ -378,7 +378,7 @@ tConjunto uniaoConjuntos(tConjunto A, tConjunto B)
 /*---------------------------------------------------------------------------*/
 
 /*
-Autores: João Gabriel Azevedo Terra (858032) Thiago Aviz Brasil(856397)
+Autores: João Gabriel Azevedo Terra () Thiago Aviz Brasil()
 Data de Criação: 24/06/26
 Data de Alteração: 24/06/26
 Objetivo: Implementação de união e interseção do Tipo Abstrato de Dados Conjunto
@@ -412,7 +412,7 @@ tConjunto intersecaoConjuntos(tConjunto A, tConjunto B)
 
 /*
 Autor: Guilherme Goulart de Oliveira e Kemily Vitoria
-RA: 856171
+RA: 
 Data de Criacao: 24/06/26
 Data de Alteracao: 01/07/26
 Objetivo: Implementacao da sub-rotina de Retornar a diferenca
@@ -450,7 +450,7 @@ tConjunto diferencaConjuntos(tConjunto A, tConjunto B)
 /*---------------------------------------------------------------------------*/
 
 /*
-Autor: Beatriz Kwok (858034) e Iago Antonio de Souza (859087)
+Autor: Beatriz Kwok () e Iago Antonio de Souza ()
 Data de Criação: 01/07/26
 Data de Alteração: 01/07/26
 Objetivo: Implementação da função de retornar se um conjunto C1 é um subconjunto próprio de um conjunto C2.
@@ -482,7 +482,7 @@ int verificaEstaContido(tConjunto C1, tConjunto C2)
 /*---------------------------------------------------------------------------*/
 
 /*
-Autor: Beatriz Kwok (858034) e Iago Antonio de Souza (859087)
+Autor: Beatriz Kwok () e Iago Antonio de Souza ()
 Data de Criação: 01/07/26
 Data de Alteração: 01/07/26
 Objetivo: Implementação da função de retornar se um conjunto C1 está contido em C2 (subconjunto não necessariamente próprio).
