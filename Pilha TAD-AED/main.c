@@ -1,6 +1,6 @@
 /*
 Autor: João Gabriel Azevedo Terra
-RA:858032
+RA:
 */
 
 #include <stdio.h>
